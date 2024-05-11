@@ -1,0 +1,12 @@
+package Exo3;
+
+public class Animaux {
+	private String nom;
+
+	public Animaux(String nom) {
+		super();
+		this.nom = nom;
+	}
+	
+	
+}

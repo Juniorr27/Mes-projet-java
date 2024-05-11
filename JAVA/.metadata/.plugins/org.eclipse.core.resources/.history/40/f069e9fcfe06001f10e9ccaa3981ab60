@@ -1,0 +1,15 @@
+package Exo3;
+
+public class Main {
+	 public static void main(String args[]) {
+		Animaux[]tab = new  Animaux[3];  
+		tab[0] = new Mammifere(" Chat ");
+		tab[1] = new Chien(" Rex"); 
+		tab[2] = new Homme(" Juju ");
+		for (int i = 0; i < tab.length; i++) {
+			System.out.println(tab[i].toString());
+			//System.out.println(tab[i]);
+			System.out.println();
+		}
+	 }
+}

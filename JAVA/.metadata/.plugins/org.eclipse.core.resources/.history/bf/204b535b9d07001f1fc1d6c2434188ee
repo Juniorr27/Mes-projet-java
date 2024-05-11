@@ -1,0 +1,16 @@
+package Exo1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Etudiant e = new Etudiant ("BUT","kiala","juju");
+		e.setNoteMoyenneUE(2,new int[1]);
+		
+		for (int i = 0; i < args.length; i++) {
+			System.out.println(e.toString());
+		}
+	
+
+	}
+
+}

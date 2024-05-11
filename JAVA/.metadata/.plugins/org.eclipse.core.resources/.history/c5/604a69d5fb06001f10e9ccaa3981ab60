@@ -1,0 +1,14 @@
+package Exo3;
+
+public class homme implements Deplacement, Raisonnement {
+	@Override
+	public String reflechir() {
+	  	return " Je me déplace debout sur mes deux jambes";
+	}
+
+	@Override
+	public String seDeplacer() {
+	
+		return "  Je suis en en pleine réflexion ";
+	}
+}

@@ -1,0 +1,15 @@
+package Exo3;
+
+public class Mammifere extends Animaux {
+	private String nom ;
+
+	public Mammifere(String nom) {
+		super(nom);
+	}
+
+	@Override
+	public String toString() {
+		return "Je suis un animal de nom" + this.nom +" Je suis un mammifère";
+	}
+	
+}
